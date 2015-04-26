@@ -40,7 +40,7 @@ The run_analysis.R script merges data from a number of .txt files and produces a
 
     5)Using the "merge" function, descriptive activity names are merged with the mean/std values dataset, to get one dataset with descriptive activity names
 
-    6)Lastly, with the help of the "melt" and "dcast" functions of the "reshape2" package, the data is converted into a table containing mean values of all the included features, ordered by the activity name and the subject id, and the data is written to the "tidy_movement_data.txt" file.
+    6)Lastly, with the help of the "melt" and "dcast" functions of the "reshape2" package, the data is converted into a table containing mean values of all the included features, ordered by the activity name and the subject id, and the data is written to the "tidy_data.txt" file.
 
 A description of the "tidy_data.txt" file may be found in the "CodeBook.md" file. 
 
